@@ -1,6 +1,6 @@
 # evm-chains
 
-Package to get chain data from ethereum-lists/chains
+Package to get chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
 
 ## Install
 
@@ -44,3 +44,7 @@ interface IChainData {
   networkId: number;
 }
 ```
+
+## Data Source
+
+[https://github.com/ethereum-lists/chains](https://github.com/ethereum-lists/chains)
