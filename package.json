@@ -1,7 +1,7 @@
 {
   "name": "evm-chains",
-  "version": "0.1.0",
-  "description": "Get chain data from ethereum-lists/chains",
+  "version": "0.1.1",
+  "description": "Package to get chain data from ethereum-lists/chains",
   "scripts": {
     "clean": "rm -rf lib",
     "build": "webpack",

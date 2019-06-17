@@ -1,6 +1,6 @@
 import axios from "axios";
 
-interface IChainData {
+export interface IChainData {
   name: string;
   chain: string;
   network: string;
