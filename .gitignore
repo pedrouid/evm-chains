@@ -1,6 +1,4 @@
-# node modules
+*.log
+.DS_Store
 node_modules
-
-# ignore transpiled files
 dist
-lib

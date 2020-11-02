@@ -1,6 +1,6 @@
 # evm-chains
 
-Package to get chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
+Package to query chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
 
 ## Install
 
@@ -15,13 +15,13 @@ yarn add evm-chains
 ## API
 
 ```typescript
-async function getAllChains(): Promise<IChainData[]>;
-async function getChain(chainId: number): Promise<IChainData>;
-async function getChainByChainId(chainId: number): Promise<IChainData>;
-async function getChainByKeyValue(key: string, value: any): Promise<IChainData>;
-async function getChainByNetworkId(networkId: number): Promise<number>;
-async function convertNetworkIdToChainId(networkId: number): Promise<number>;
-async function convertChainIdToNetworkId(chainId: number): Promise<number>;
+function getAllChains(): IChainData[];
+function getChain(chainId: number): IChainData;
+function getChainByChainId(chainId: number): IChainData;
+function getChainByKeyValue(key: string, value: any): IChainData;
+function getChainByNetworkId(networkId: number): number;
+function convertNetworkIdToChainId(networkId: number): number;
+function convertChainIdToNetworkId(chainId: number): number;
 ```
 
 ## Types
@@ -29,19 +29,19 @@ async function convertChainIdToNetworkId(chainId: number): Promise<number>;
 ```typescript
 interface IChainData {
   name: string;
+  chainId: number;
+  shortName: string;
   chain: string;
   network: string;
-  rpc: string[];
-  faucets: string[];
+  networkId: number;
   nativeCurrency: {
     name: string;
     symbol: string;
     decimals: number;
   };
+  rpc: string[];
+  faucets: string[];
   infoURL: string;
-  shortName: string;
-  chainId: number;
-  networkId: number;
 }
 ```
 
