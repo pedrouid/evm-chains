@@ -1,6 +1,7 @@
 {
-  "name": "evm-chains",
-  "version": "0.2.0",
+  "name": "@mintgate/evm-chains",
+  "private": false,
+  "version": "0.3.0",
   "description": "Package to get chain data from ethereum-lists/chains",
   "author": "Pedro Gomes <github.com/pedrouid>",
   "license": "MIT",
