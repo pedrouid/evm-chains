@@ -12,5 +12,6 @@ export interface IChainData {
   };
   rpc: string[];
   faucets: string[];
+  explorers: { name: string; url: string; standard: string; icon?: string }[];
   infoURL: string;
 }
