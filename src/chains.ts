@@ -1,6 +1,50 @@
 import { IChainData } from './types';
 
+const manualChains = [
+  {
+    name: 'NEAR MainNet',
+    chainId: -10,
+    shortName: 'NEAR',
+    chain: 'NEAR',
+    network: 'mainnet',
+    networkId: -10,
+    nativeCurrency: { name: 'NEAR', symbol: 'NEAR', decimals: 18 },
+    rpc: [],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://near.org',
+  },
+  {
+    name: 'NEAR TestNet',
+    chainId: -11,
+    shortName: 'NEAR',
+    chain: 'NEAR',
+    network: 'testnet',
+    networkId: -11,
+    nativeCurrency: { name: 'NEAR', symbol: 'NEAR', decimals: 18 },
+    rpc: [],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://near.org',
+  },
+  {
+    name: 'FLOW MainNet',
+    isBeta: true,
+    chainId: -20,
+    shortName: 'FLOW',
+    chain: 'FLOW',
+    network: 'testnet',
+    networkId: -20,
+    nativeCurrency: { name: 'FLOW', symbol: 'FLOW', decimals: 18 },
+    rpc: [],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://www.onflow.org/',
+  },
+];
+
 export const chains: IChainData[] = [
+  ...manualChains,
   {
     name: 'Ethereum Mainnet',
     chainId: 1,
