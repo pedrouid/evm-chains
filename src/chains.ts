@@ -41,6 +41,20 @@ const manualChains = [
     explorers: [],
     infoURL: 'https://www.onflow.org/',
   },
+  {
+    name: 'WAVES Mainnet',
+    isBeta: true,
+    chainId: 87,
+    shortName: 'WAVES',
+    chain: 'WAVES',
+    network: 'mainnet',
+    networkId: 87,
+    nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
+    rpc: [],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://www.waves.tech',
+  },
 ];
 
 export const chains: IChainData[] = [
