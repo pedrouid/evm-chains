@@ -44,11 +44,11 @@ const manualChains = [
   {
     name: 'WAVES Mainnet',
     isBeta: false,
-    chainId: 87,
+    chainId: -87,
     shortName: 'WAVES',
     chain: 'WAVES',
     network: 'mainnet',
-    networkId: 87,
+    networkId: -87,
     nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
     rpc: [''],
     faucets: [],
