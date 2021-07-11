@@ -14,8 +14,8 @@ const manualChains = [
     explorers: [],
     infoURL: 'https://near.org',
     tokenTypes: [
-      { id: 721, label: 'NFT - NEP4 compatible' },
-      { id: 722, label: 'MintBase NFT' },
+      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
+      { id: 722, label: 'MintBase NFT', tokenid: true },
     ],
   },
   {
@@ -31,8 +31,8 @@ const manualChains = [
     explorers: [],
     infoURL: 'https://near.org',
     tokenTypes: [
-      { id: 721, label: 'NFT - NEP4 compatible' },
-      { id: 722, label: 'MintBase NFT' },
+      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
+      { id: 722, label: 'MintBase NFT', tokenid: true },
     ],
   },
   {
@@ -62,7 +62,7 @@ const manualChains = [
     faucets: [],
     explorers: [],
     infoURL: 'https://www.waves.tech',
-    tokenTypes: [{ id: 20, label: 'Standard ERC-20 tokens' }],
+    tokenTypes: [{ id: 20, label: 'Standard ERC-20 tokens', tokenid: false }],
   },
 ];
 
