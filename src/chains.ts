@@ -15,7 +15,7 @@ const manualChains = [
     infoURL: 'https://near.org',
     tokenTypes: [
       { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
-      { id: 722, label: 'MintBase NFT', tokenid: true },
+      { id: 722, label: 'MintBase Thing ID', tokenid: false },
     ],
   },
   {
@@ -32,7 +32,7 @@ const manualChains = [
     infoURL: 'https://near.org',
     tokenTypes: [
       { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
-      { id: 722, label: 'MintBase NFT', tokenid: true },
+      { id: 722, label: 'MintBase Thing ID', tokenid: false },
     ],
   },
   {
