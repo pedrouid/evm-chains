@@ -14,8 +14,8 @@ const manualChains = [
     explorers: [],
     infoURL: 'https://near.org',
     tokenTypes: [
-      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
-      { id: 722, label: 'MintBase Thing ID', tokenid: false },
+      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true, nft: true },
+      { id: 722, label: 'Mintbase Thing ID', tokenid: false, nft: true },
     ],
   },
   {
@@ -31,8 +31,8 @@ const manualChains = [
     explorers: [],
     infoURL: 'https://near.org',
     tokenTypes: [
-      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true },
-      { id: 722, label: 'MintBase Thing ID', tokenid: false },
+      { id: 721, label: 'NFT - NEP4 compatible', tokenid: true, nft: true },
+      { id: 722, label: 'Mintbase Thing ID', tokenid: false, nft: true },
     ],
   },
   {
@@ -77,7 +77,7 @@ const manualChains = [
     faucets: [],
     explorers: [],
     infoURL: 'https://www.waves.tech',
-    tokenTypes: [{ id: 1, label: 'MintGate NFTs', tokenid: false }],
+    tokenTypes: [{ id: 1, label: 'MintGate NFTs', tokenid: false, nft: true }],
   },
 ];
 
