@@ -64,6 +64,21 @@ const manualChains = [
     infoURL: 'https://www.waves.tech',
     tokenTypes: [{ id: 20, label: 'Standard ERC-20 tokens', tokenid: false }],
   },
+  {
+    name: 'MintGate NFTs',
+    isBeta: false,
+    chainId: -1,
+    shortName: 'MintGate',
+    chain: 'MintGate',
+    network: 'mainnet',
+    networkId: -1,
+    nativeCurrency: { name: 'GATE', symbol: 'GATE', decimals: 18 },
+    rpc: [''],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://www.waves.tech',
+    tokenTypes: [{ id: 1, label: 'MintGate NFTs', tokenid: false }],
+  },
 ];
 
 export const chains: IChainData[] = [
