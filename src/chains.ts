@@ -92,6 +92,7 @@ const manualChains = [
     faucets: [],
     explorers: [],
     infoURL: 'https://www.rally.io',
+    tokenTypes: [{ id: 20, label: 'Standard Rally Coins'}]
   },
 ];
 
