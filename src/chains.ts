@@ -92,7 +92,7 @@ const manualChains = [
     faucets: [],
     explorers: [],
     infoURL: 'https://www.rally.io',
-    tokenTypes: [{ id: 2, label: 'Rally Creator Coins', tokenid: false }],
+    tokenTypes: [{ id: 20, label: 'Rally Creator Coins', tokenid: false }],
     subcoins: 'https://api.rally.io/v1/creator_coins',
   },
 ];
