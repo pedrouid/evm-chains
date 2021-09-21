@@ -79,6 +79,22 @@ const manualChains = [
     infoURL: 'https://www.waves.tech',
     tokenTypes: [{ id: 1, label: 'MintGate NFTs', tokenid: false, nft: true }],
   },
+  {
+    name: 'Rally',
+    isBeta: true,
+    chainId: -90,
+    shortName: 'Rally',
+    chain: 'Rally',
+    network: '',
+    networkId: -90,
+    nativeCurrency: { name: 'RALLY', symbol: 'RLLY', decimals: 18 },
+    rpc: [''],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://www.rally.io',
+    tokenTypes: [{ id: 20, label: 'Rally Creator Coins', tokenid: false }],
+    subcoins: 'https://api.rally.io/v1/creator_coins',
+  },
 ];
 
 export const chains: IChainData[] = [
