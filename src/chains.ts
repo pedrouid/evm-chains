@@ -2167,7 +2167,7 @@ export const chains: IChainData[] = [
     chainId: 80001,
     shortName: 'maticmum',
     chain: 'Matic',
-    network: 'testnet',
+    network: 'Mumbai Testnet',
     networkId: 80001,
     nativeCurrency: { name: 'Matic', symbol: 'tMATIC', decimals: 18 },
     rpc: ['https://rpc-mumbai.matic.today', 'wss://ws-mumbai.matic.today'],
