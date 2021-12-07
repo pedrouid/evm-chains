@@ -2,6 +2,19 @@ import { IChainData } from './types';
 
 const manualChains = [
   {
+    name: 'POAP',
+    chainId: -15,
+    shortName: 'POAP',
+    chain: 'POAP',
+    network: 'POAP',
+    networkId: -15,
+    rpc: [],
+    faucets: [],
+    explorers: [],
+    infoURL: 'https://poap.xyz/',
+    tokenTypes: [{ id: 4, label: 'POAP Event ID', tokenid: false, nft: false }],
+  },
+  {
     name: 'NEAR MainNet',
     chainId: -10,
     shortName: 'NEAR',

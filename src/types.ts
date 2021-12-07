@@ -5,7 +5,7 @@ export interface IChainData {
   chain: string;
   network: string;
   networkId: number;
-  nativeCurrency: {
+  nativeCurrency?: {
     name: string;
     symbol: string;
     decimals: number;
