@@ -12,6 +12,14 @@ npm install --save evm-chains
 yarn add evm-chains
 ```
 
+## Using
+
+```ts
+import { getChainByChainId } from 'evm-chains'
+
+getChainByChainId(1) // { chain: "ETH", name: "Ethereum Mainnet", ...}
+```
+
 ## API
 
 ```typescript
